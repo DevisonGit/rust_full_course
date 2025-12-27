@@ -20,5 +20,14 @@ fn main(){
     let i: i64 = 9223372036854775807;
     println!("Maximum value of i32: {}", e);
     println!("Maximum value of i64: {}", i);
-
+// float 
+// f32, f64
+    let pi: f64 = 3.14;
+    println!("Value of pi: {}", pi);
+// boolean values: true, false
+    let is_snowing: bool= true;
+    println!("Is it snowing? {}", is_snowing);
+// charachter type - char
+    let letter: char = 'a';
+    println!("First letter of the alphabet: {}", letter);
 }
